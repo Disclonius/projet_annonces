@@ -25,7 +25,7 @@ class EtatsManager extends Model {
 
     public function getEtatById($id)
     {
-        if (!is_int($id) || $id <= 0) {
+        if ($id <= 0) {
             return false;
         }
     
