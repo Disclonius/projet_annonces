@@ -15,7 +15,10 @@ Recherche par mots clés:
 </div>
 <div id="column_right">
 <ul>
-	<li><a href="?p=members">Voir les membres</a></li></ul>
+	<li><a href="?p=view_members">Voir les membres</a></li>
+	<li><a href="?p=view_listings">Voir les annonces</a></li>
+	<li><a href="?p=view_etats">Voir les états</a></li>
+	<li><a href="?p=view_categories">Voir les categories</a></li>
 </div>
 <div class="spacer"></div>
 </div>

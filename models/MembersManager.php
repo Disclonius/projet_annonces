@@ -19,12 +19,12 @@ class MembersManager extends Model {
 
     public function getUserById($id) {
         try {
-            $req = $this->getDatabase()->prepare('SELECT * FROM membres WHERE id_membre= :id');
+            $req = $this->getDatabase()->prepare('SELECT * FROM membres WHERE id= :id');
             $req->execute(['id' => $id]);
             $memberData = $req->fetch(PDO::FETCH_ASSOC);
             if ($memberData) {
                 $member = new Member(
-                    $memberData['id_membre'],
+                    $memberData['id'],
                     $memberData['is_admin'],
                     $memberData['username'],
                     $memberData['email'],
@@ -58,7 +58,7 @@ class MembersManager extends Model {
 
         foreach($members as $member){
             $newMember = new Member(
-                $member['id_membre'],
+                $member['id'],
                 $member['is_admin'],
                 $member['username'],
                 $member['email'],
@@ -132,7 +132,7 @@ class MembersManager extends Model {
                 //if($user['actif']){
                     $_SESSION['is_login']=true;
                     //$_SESSION['is_actif']=$user['actif'];
-                    $_SESSION['id'] = $user['id_membre'];
+                    $_SESSION['id'] = $user['id'];
                     return array("success", "Connexion réussie :)");               
                 //}else return array("error", "Veuillez activer votre compte");
             }else return array("error", "Mauvais identifiants");
@@ -143,7 +143,7 @@ class MembersManager extends Model {
         try {
             $member = $this->getUserById($id);
 
-            $req = $this->getDatabase()->prepare('DELETE FROM membres WHERE id_membre = :id');
+            $req = $this->getDatabase()->prepare('DELETE FROM membres WHERE id = :id');
             $req->execute(['id'=>$id]);
             
             if ($req->rowCount() > 0){
@@ -157,51 +157,51 @@ class MembersManager extends Model {
         }
     }
 
-public function updateMember($id) {
-    $username = $_POST['username'];
-    $email = filter_var(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL), FILTER_VALIDATE_EMAIL);
-    $firstname = $_POST['firstname'];
-    $lastname = $_POST['lastname']; 
-    $birthdate = $_POST['birthdate'];
-    $phone = $_POST['phone'];
-    $address = $_POST['address'];
-    $zipcode = $_POST['zipcode'];
-    $city = $_POST['city'];
-    
-    try {
-        if (!empty($id) && !empty($email)) {
-            if (!empty($username) && strlen($username) >= 3) {
-                if (preg_match('/^0\d{4}$|^[1-9]\d{4}$/', $zipcode)) {
-                    if (preg_match('/^\d{10}$/', $phone)) {
-                        $req = $this->getDatabase()->prepare("UPDATE membres SET username = :username, email = :email, prenom = :firstname, nom = :lastname, date_naissance = :birthdate, num_telephone = :phone, adresse_postale = :address, code_postal = :zipcode, ville = :city WHERE id_membre = :id");
-                        $req->bindParam(':username', $username);
-                        $req->bindParam(':email', $email);
-                        $req->bindParam(':firstname', $firstname);
-                        $req->bindParam(':lastname', $lastname);
-                        $req->bindParam(':birthdate', $birthdate);
-                        $req->bindParam(':phone', $phone);
-                        $req->bindParam(':address', $address);
-                        $req->bindParam(':zipcode', $zipcode);
-                        $req->bindParam(':city', $city);
-                        $req->bindParam(':id', $id);
-                        $req->execute();
-                        return array("success", "Membre mis à jour avec succès");
+    public function updateMember($id) {
+        $username = $_POST['username'];
+        $email = filter_var(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL), FILTER_VALIDATE_EMAIL);
+        $firstname = $_POST['firstname'];
+        $lastname = $_POST['lastname']; 
+        $birthdate = $_POST['birthdate'];
+        $phone = $_POST['phone'];
+        $address = $_POST['address'];
+        $zipcode = $_POST['zipcode'];
+        $city = $_POST['city'];
+        
+        try {
+            if (!empty($id) && !empty($email)) {
+                if (!empty($username) && strlen($username) >= 3) {
+                    if (preg_match('/^0\d{4}$|^[1-9]\d{4}$/', $zipcode)) {
+                        if (preg_match('/^\d{10}$/', $phone)) {
+                            $req = $this->getDatabase()->prepare("UPDATE membres SET username = :username, email = :email, prenom = :firstname, nom = :lastname, date_naissance = :birthdate, num_telephone = :phone, adresse_postale = :address, code_postal = :zipcode, ville = :city WHERE id = :id");
+                            $req->bindParam(':username', $username);
+                            $req->bindParam(':email', $email);
+                            $req->bindParam(':firstname', $firstname);
+                            $req->bindParam(':lastname', $lastname);
+                            $req->bindParam(':birthdate', $birthdate);
+                            $req->bindParam(':phone', $phone);
+                            $req->bindParam(':address', $address);
+                            $req->bindParam(':zipcode', $zipcode);
+                            $req->bindParam(':city', $city);
+                            $req->bindParam(':id', $id);
+                            $req->execute();
+                            return array("success", "Membre mis à jour avec succès");
+                        } else {
+                            return array("error", "Le numéro de téléphone doit être composé de 10 chiffres");
+                        }
                     } else {
-                        return array("error", "Le numéro de téléphone doit être composé de 10 chiffres");
+                        return array("error", "Le code postal doit être composé de 5 chiffres");
                     }
                 } else {
-                    return array("error", "Le code postal doit être composé de 5 chiffres");
+                    return array("error", "L'username doit comporter au moins 3 caractères");
                 }
             } else {
-                return array("error", "L'username doit comporter au moins 3 caractères");
+                return array("error", "L'email doit être renseigné");
             }
-        } else {
-            return array("error", "L'email doit être renseigné");
+        } catch (Exception $e) {
+            return array("error", "Une erreur s'est produite lors de la mise à jour du membre : " . $e->getMessage());
         }
-    } catch (Exception $e) {
-        return array("error", "Une erreur s'est produite lors de la mise à jour du membre : " . $e->getMessage());
     }
-}
 
 }
 ?>

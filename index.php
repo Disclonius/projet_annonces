@@ -1,9 +1,12 @@
 <?php
 
+require_once "models/EtatsManager.php";
 require_once "models/MembersManager.php";
 session_start();
 require_once "helpers/string_helper.php";
 require_once "controllers/MembersController.php";
+require_once "controllers/ListingsController.php";
+require_once "controllers/EtatsController.php";
 
 $p = $_GET['p'] ?? "";
 $id = $_GET['id'] ?? "";
@@ -22,13 +25,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         case 'update_member':
             $membersController = new MembersController();
             $message = $membersController->updateMemberDatas();
+            break;
+        case 'update_etat':
+            $etatsController = new EtatsController();
+            $message = $etatsController->udpateEtatDatas();           
+            break;
+        case 'put_for_sale':
+            $listingsController = new ListingsController();
+            $listing = $listingsController->addListing();
         }
 }
 
 if ($p =='disconnect') {
 	session_unset();
 	session_destroy();
-	$message=array("success", "Vous vous êtes déconnecté");
+	$message= "Vous vous êtes déconnecté(e).";
 }
 if ($p == 'delete_member'){
     $membersController = new MembersController;
@@ -41,18 +52,33 @@ include "views/common/header.php";
 
 switch ($p) {
     case 'connect':
-        include "views/connexion_page.php";
+        include "views/connect.php";
         break;
     case 'signup':
         include "views/inscription_page.php";
         break;
-    case 'members':
+    case 'view_members':
         $list_members = new MembersController;
         $members = $list_members->showAllMembers();
+        break;
+    case 'view_listings':
+        break;
+    case 'view_etats':
+        $etatsController = new EtatsController();
+        $etatsController->showAllEtats();
+        break;
+    case 'view_categories':
         break;
     case 'edit_member':
         $membersController = new MembersController();
         $membersController->showMemberDatas();
+        break;
+    case 'edit_etat':
+        $etatsController = new EtatsController();
+        $etatsController->getEtatDatas($id);
+        break;
+    case 'put_for_sale':
+        include 'views/put_for_sale.php';
         break;
     case 'delete_member':
         include "../index.php";

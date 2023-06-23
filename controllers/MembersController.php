@@ -8,15 +8,14 @@ class MembersController {
         $this->membersManager = new MembersManager();
     }
 
-    public function getUserData($id) {
-        $membersManager = new MembersManager();
-        $member = $membersManager->getUserById($id);
+    public function getUserDatas($id) {
+        $member = $this->membersManager->getUserById($id);
         return $member;
     }
 
     public function showAllMembers() {
         $members = $this->membersManager->getAllMembers();
-        include "views/afficher_membres.php";
+        include "views/view_members.php";
     }
 
     public function addUser() {
@@ -28,13 +27,12 @@ class MembersController {
         $email=filter_var(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL), FILTER_VALIDATE_EMAIL);
         $pwd = $_POST['pwd'];
 
-        $membersManager = new MembersManager;
-        $result = $membersManager->logIn($email,$pwd);
+        $result = $this->membersManager->logIn($email,$pwd);
 
         if ($result[0] === "success"){
             $message[1] = "La connexion a réussi!";
             $id = $_SESSION['id'];
-            $userData = $this->getUserData($id); 
+            $userData = $this->getUserDatas($id); 
             $_SESSION['user_data'] = $userData;
             header("Location: index.php");
         } else {
@@ -43,8 +41,7 @@ class MembersController {
     }
 
     public function deleteUser($id){
-        $membersManager = new MembersManager();
-        $member = $membersManager->deleteUserById($id);
+        $member = $this->membersManager->deleteUserById($id);
         if ($member) {
                 $message = "Success, Le membre a été supprimé avec succès.";
             } else {
@@ -54,23 +51,21 @@ class MembersController {
     
     public function showMemberDatas(){
         $membersManager = new MembersController();
-        $member = $membersManager->getUserData($_GET['id']);
+        $member = $membersManager->getUserDatas($_GET['id']);
         include "views/edit_member.php";
     }
 
     public function updateMemberDatas(){
-            $memberManager = new MembersManager();
             $id = $_GET['id'];
-
-            $result = $memberManager->updateMember($id);
+            $result = $this->membersManager->updateMember($id);
             var_dump($result);          
             if ($result[0] === 'success') {
-                //header('Location: ...php');
+                header('Location: index.php');
                 return $result[1];
                 exit();
             } else {
-                //header('Location: index.php');
-                //exit();
+                header('Location: index.php');
+                exit();
             }
     }
 }
