@@ -16,7 +16,7 @@
                     <td><?= $m->getUsername() ?></td>
                     <td><?= $m->getEmail() ?></td>
                     <td><?= date('d/m/Y', strtotime($m->getRegistration_date())) ?></td>
-                    <td><button onclick= "window.location.href = '?p=modify_member.php&id=<?=$m->getId()?>'">Modifier test</button></td>
+                    <td><button onclick= "window.location.href = '?p=modify_member.php&id=<?=$m->getId()?>'">Modifier</button></td>
                 </tr>
             <?php } ?>
         </tbody>
