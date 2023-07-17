@@ -1,0 +1,1014 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"redo_stack":
+			[
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "x"
+					},
+					"AQAAAPUDAAAAAAAA9QMAAAAAAAABAAAAeA",
+					"AQAAAAAAAAABAAAA9gMAAAAAAAD2AwAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 1176,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "test.sublime-project",
+			"settings":
+			{
+				"buffer_size": 130,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAEYAAAAAAAAASAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "setting"
+					},
+					"BwAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARwAAAAAAAABHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAE4AAAAAAAAATwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAFAAAAAAAAAAUQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFEAAAAAAAAAUgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAFIAAAAAAAAAVAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BgAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVAAAAAAAAABUAAAAAAAAAAEAAAAJVAAAAAAAAABWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAFYAAAAAAAAAWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "xdebug"
+					},
+					"BgAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAABZAAAAAAAAAFoAAAAAAAAAAAAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAF0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAF4AAAAAAAAAXwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AQAAAF4AAAAAAAAAXgAAAAAAAAABAAAAOw",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAF4AAAAAAAAAXwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAF8AAAAAAAAAYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAGAAAAAAAAAAYgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BgAAAGEAAAAAAAAAYgAAAAAAAAAAAAAAYgAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGUAAAAAAAAAAAAAAGUAAAAAAAAAZwAAAAAAAAAAAAAAYgAAAAAAAABiAAAAAAAAAAIAAAAJCWIAAAAAAAAAZQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "url:"
+					},
+					"BAAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAZgAAAAAAAABnAAAAAAAAAAAAAABnAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAGUAAAAAAAAAZgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAGkAAAAAAAAAagAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaQAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGsAAAAAAAAAbAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAGwAAAAAAAAAbgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAAGwAAAAAAAAAbAAAAAAAAAABAAAAImwAAAAAAAAAbAAAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAAbQAAAAAAAABtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "locao"
+					},
+					"BQAAAGwAAAAAAAAAbQAAAAAAAAAAAAAAbQAAAAAAAABuAAAAAAAAAAAAAABuAAAAAAAAAG8AAAAAAAAAAAAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHAAAAAAAAAAcAAAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAAcQAAAAAAAABxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "lhost\""
+					},
+					"BgAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAAByAAAAAAAAAAAAAAByAAAAAAAAAHMAAAAAAAAAAAAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAGwAAAAAAAAAbQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAHcAAAAAAAAAeAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdwAAAAAAAAB3AAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> C:\\wamp64\\www\\formation\\projet\\index.php\n\t|+| 3\n",
+			"settings":
+			{
+				"buffer_size": 51,
+				"line_ending": "Windows",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "=> C:\\wamp64\\www\\formation\\projet\\index.php\n\t|+| 3\n",
+						"readonly": true
+					},
+					"AQAAAAAAAAAAAAAAMwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "=> C:\\wamp64\\www\\formation\\projet\\index.php\n\t|+| 3\n",
+						"readonly": true
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAPT4gQzpcd2FtcDY0XHd3d1xmb3JtYXRpb25ccHJvamV0XGluZGV4LnBocAoJfCt8IDMKAAAAAAAAAAAzAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "=> C:\\wamp64\\www\\formation\\projet\\index.php\n\t|+| 3\n",
+						"readonly": true
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAPT4gQzpcd2FtcDY0XHd3d1xmb3JtYXRpb25ccHJvamV0XGluZGV4LnBocAoJfCt8IDMKAAAAAAAAAAAzAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"xdebug_view_update",
+					{
+						"data": "=> C:\\wamp64\\www\\formation\\projet\\index.php\n\t|+| 3\n",
+						"readonly": true
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAPT4gQzpcd2FtcDY0XHd3d1xmb3JtYXRpb25ccHJvamV0XGluZGV4LnBocAoJfCt8IDMKAAAAAAAAAAAzAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"start",
+				"Xdebug: Start Debugging (Launch Browser)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"xdebug",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"debug",
+				"Package Control: Enable Debug Mode"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/formation",
+		"/C/wamp64/www/formation/projet",
+		"/C/wamp64/www/formation/projet/controllers"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/formation/projet/controllers/MembersController.php",
+		"/C/wamp64/www/formation/projet/models/MembersManager.php",
+		"/C/wamp64/www/formation/projet/models/Member.php",
+		"/C/wamp64/www/formation/projet/views/common/header.php",
+		"/C/wamp64/www/formation/projet/projet_promo2.sql",
+		"/C/Users/achra/AppData/Roaming/Sublime Text/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Users/achra/AppData/Roaming/Sublime Text/Packages/User/Xdebug.sublime-settings",
+		"/C/Users/achra/AppData/Roaming/Sublime Text/Packages/User/Emmet.sublime-settings",
+		"/C/wamp64/bin/php/php8.0.26/php.ini",
+		"/C/wamp64/www/formation/projet/functions.php",
+		"/C/wamp64/www/formation/authentification/index.php",
+		"/C/wamp64/www/formation/projet/index.php",
+		"/C/wamp64/www/formation/projet/views/connexion_page.php",
+		"/C/wamp64/www/formation/projet/views/home.php",
+		"/C/wamp64/www/formation/projet/models/Model.php",
+		"/C/wamp64/www/formation/projet/assets/style.css",
+		"/C/wamp64/www/formation/projet/views/inscription_page.php",
+		"/C/wamp64/www/formation/projet/views/afficher_membres.php",
+		"/C/wamp64/www/formation/projet/inscription_page.php",
+		"/C/wamp64/www/formation/projet/connexion_page.php",
+		"/C/wamp64/www/formation/projet/afficher_membres.php",
+		"/C/wamp64/www/formation/authentification/view/signup.php",
+		"/C/wamp64/www/formation/files/tp-file/card.php",
+		"/C/wamp64/www/formation/chat.php",
+		"/C/wamp64/www/formation/files/form-single-file.php",
+		"/C/wamp64/www/formation/files/tp-file/index.php",
+		"/C/wamp64/www/formation/files/tp-file/cards/Fifi-et-Loulou-Riri.txt",
+		"/C/wamp64/www/formation/files/tp-file/thank_you.txt",
+		"/C/wamp64/www/formation/files/tp-file/test-non.txt",
+		"/C/wamp64/www/formation/files/tp-file/Envoyeur-Destinataire.txt",
+		"/C/wamp64/www/formation/files/json.php",
+		"/C/wamp64/www/formation/files/tp-file/utilities.php",
+		"/C/wamp64/www/formation/ex-bdd_pdo/functions.php",
+		"/C/wamp64/www/formation/ex-bdd_pdo/members.php",
+		"/C/wamp64/www/formation/triangle/triangle.php",
+		"/C/wamp64/www/formation/ex-bdd-proc/functions.php",
+		"/C/wamp64/www/formation/objet/class_db.php",
+		"/C/wamp64/www/formation/objet/class_form.php",
+		"/C/wamp64/www/formation/conjugaison/conjugaison.php",
+		"/C/wamp64/www/formation/fibonacci/fibonacci.php",
+		"/C/wamp64/www/formation/syracuse/syracuse.php",
+		"/E/Wamp/www/pfc_nav.php",
+		"/E/Wamp/www/pendu.php",
+		"/E/Wamp/www/pokemon.php",
+		"/E/Wamp/www/test.php",
+		"/E/Wamp/www/adn.php",
+		"/E/Wamp/www/test_sockets.php",
+		"/E/Wamp/www/testmysql.php",
+		"/E/Wamp/www/formation/tp_boucle.php",
+		"/G/Formation/tp_boucle.php",
+		"/E/Formation/Mise en page (Flex)/style.css",
+		"/G/Formation/TPconditions.pdf",
+		"/E/Formation/Mise en page (Flex)/index.html",
+		"/E/Formation/Mise en page (Flex)/style",
+		"/E/Formation/tp-grid/taskboard.html",
+		"/E/Formation/tp-grid/style.css",
+		"/E/Formation/tp-grid/.DS_Store"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"xdebug_enable",
+			"enable",
+			"score",
+			"cm",
+			"pède",
+			"auto-rows",
+			".card-column",
+			"display"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								614
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"rainbowth.lispy": false,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "test.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"14":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"83":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
